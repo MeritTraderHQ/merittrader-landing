@@ -7,7 +7,7 @@
   <title>MeritTrader — Grade Your Discipline</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -23,17 +23,17 @@
     <div class="container">
       <div class="hero__split">
         <div class="hero__content">
-          <div class="hero-eyebrow">Trading Journal &amp; Behavioral Analytics</div>
+          <div class="hero-eyebrow">Introducing the Merit Score</div>
           <h1 class="hero-headline">Your P&amp;L doesn't tell<br><span class="gradient-text">the whole story.</span></h1>
-          <p class="hero-sub">MeritTrader grades your discipline — execution quality, rule adherence, emotional consistency — and turns it into a daily score you can actually improve.</p>
+          <p class="hero-sub">MeritTrader gives you a daily <span class="hero-accent">Merit Score</span> — a letter grade, A to F — based on your execution, discipline, and rule adherence. Not luck. Not P&amp;L. Your actual process.</p>
           <a href="#waitlist" class="btn btn-lg">Get Early Access</a>
           <p class="hero-sub-note">Free during early access. No credit card required.</p>
         </div>
         <div class="hero__visual">
           <div class="screenshot-frame screenshot-frame--glow fade-up">
             <img
-              src="assets/screenshots/calendar-mixed.png"
-              alt="MeritTrader trading calendar showing graded trading days"
+              src="assets/screenshots/daily-review.png"
+              alt="MeritTrader daily review showing an A grade"
               loading="eager"
               width="600"
             >
@@ -46,49 +46,38 @@
   <!-- PROBLEM -->
   <section class="section section-problem">
     <div class="container container-narrow">
-      <h2 class="section-label">Sound familiar?</h2>
+      <h2 class="section-label">Every trader knows this</h2>
       <div class="problem-grid">
         <div class="problem-card">
-          <span class="problem-icon">📈</span>
+          <svg class="problem-icon" width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <polyline points="2,22 8,14 14,18 26,6" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="20,6 26,6 26,12" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
           <p>You had a green day — but you overtraded, broke your rules, and got lucky. It felt wrong.</p>
         </div>
         <div class="problem-card">
-          <span class="problem-icon">📉</span>
+          <svg class="problem-icon" width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <polyline points="2,6 8,14 14,10 26,22" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="20,22 26,22 26,16" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
           <p>You had a red day — but your process was clean, your entries were disciplined, and you managed risk well. It felt right.</p>
         </div>
         <div class="problem-card">
-          <span class="problem-icon">🔁</span>
+          <svg class="problem-icon" width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <path d="M5 14A9 9 0 0 1 14 5c2.7 0 5.1 1.2 6.8 3.1" stroke="var(--text-muted)" stroke-width="2" stroke-linecap="round"/>
+            <path d="M23 14a9 9 0 0 1-9 9c-2.7 0-5.1-1.2-6.8-3.1" stroke="var(--text-muted)" stroke-width="2" stroke-linecap="round"/>
+            <polyline points="18.5,5 21.5,8 18.5,8" stroke="var(--text-muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="9.5,23 6.5,20 9.5,20" stroke="var(--text-muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
           <p>You kept repeating the same emotional mistakes with no objective way to see the pattern.</p>
         </div>
         <div class="problem-card">
-          <span class="problem-icon">📊</span>
+          <svg class="problem-icon" width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <rect x="2" y="18" width="6" height="8" rx="1" stroke="var(--text-muted)" stroke-width="2"/>
+            <rect x="11" y="11" width="6" height="15" rx="1" stroke="var(--text-muted)" stroke-width="2"/>
+            <rect x="20" y="4" width="6" height="22" rx="1" stroke="var(--text-muted)" stroke-width="2"/>
+          </svg>
           <p>Your journal tracked your P&amp;L. It never graded your behavior.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONCEPT -->
-  <section class="section section-concept">
-    <div class="container container-narrow">
-      <h2 class="section-label">A different kind of journal</h2>
-      <h3 class="section-heading">Separate good process<br>from lucky outcomes.</h3>
-      <p class="section-body">MeritTrader assigns a daily Merit Score — a letter grade from A to F — based on three components that have nothing to do with whether the market went your way.</p>
-      <div class="score-grid">
-        <div class="score-card">
-          <div class="score-weight">50%</div>
-          <div class="score-name">Process</div>
-          <div class="score-desc">Stop loss discipline, trade setup quality, trade count — the execution decisions only you control.</div>
-        </div>
-        <div class="score-card">
-          <div class="score-weight">30%</div>
-          <div class="score-name">Outcome</div>
-          <div class="score-desc">Win rate and P&amp;L direction — results matter, but they're not the whole grade.</div>
-        </div>
-        <div class="score-card">
-          <div class="score-weight">20%</div>
-          <div class="score-name">Self-Report</div>
-          <div class="score-desc">Did you follow your plan? Were you patient? Your own honest answers, scored objectively.</div>
         </div>
       </div>
     </div>
@@ -128,17 +117,6 @@
               <p>Which session are you most disciplined in? Which days do you overtrade? The data tells you what you can't see in the moment.</p>
             </div>
           </div>
-        </div>
-        <div class="how-screenshot">
-          <div class="screenshot-frame screenshot-frame--glow fade-up">
-            <img
-              src="assets/screenshots/daily-review.png"
-              alt="MeritTrader daily review showing an A grade"
-              loading="lazy"
-              width="480"
-            >
-          </div>
-          <p class="step-screenshot__caption">Here's what a grade looks like.</p>
         </div>
       </div>
     </div>
@@ -182,6 +160,32 @@
             >
           </div>
           <p class="month-caption">A tough month — but now you know exactly why.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONCEPT -->
+  <section class="section section-concept">
+    <div class="container container-narrow">
+      <h2 class="section-label">A different kind of journal</h2>
+      <h3 class="section-heading">Separate good process<br>from lucky outcomes.</h3>
+      <p class="section-body">MeritTrader assigns a daily Merit Score — a letter grade from A to F — based on three components that have nothing to do with whether the market went your way.</p>
+      <div class="score-grid">
+        <div class="score-card">
+          <div class="score-weight">50%</div>
+          <div class="score-name">Process</div>
+          <div class="score-desc">Stop loss discipline, trade setup quality, trade count — the execution decisions only you control.</div>
+        </div>
+        <div class="score-card">
+          <div class="score-weight">30%</div>
+          <div class="score-name">Outcome</div>
+          <div class="score-desc">Win rate and P&amp;L direction — results matter, but they're not the whole grade.</div>
+        </div>
+        <div class="score-card">
+          <div class="score-weight">20%</div>
+          <div class="score-name">Self-Report</div>
+          <div class="score-desc">Did you follow your plan? Were you patient? Your own honest answers, scored objectively.</div>
         </div>
       </div>
     </div>
