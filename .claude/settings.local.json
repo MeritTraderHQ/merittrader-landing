@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.beehiiv.com)",
+      "WebSearch",
+      "WebFetch(domain:subscribe-forms.beehiiv.com)"
+    ]
+  }
+}
