@@ -12,6 +12,48 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icon-180.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://merittrader.com" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://merittrader.com" />
+  <meta property="og:site_name"   content="MeritTrader" />
+  <meta property="og:title"       content="MeritTrader — Grade Your Discipline" />
+  <meta property="og:description" content="MeritTrader grades every trading session A to F — based on discipline and execution, not luck or P&L. Built for prop firm traders who know their behavior is the problem." />
+  <meta property="og:image"       content="https://merittrader.com/assets/screenshots/report-card.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:site"        content="@merittraderhq" />
+  <meta name="twitter:title"       content="MeritTrader — Grade Your Discipline" />
+  <meta name="twitter:description" content="MeritTrader grades every trading session A to F — based on discipline and execution, not luck or P&L. Built for prop firm traders who know their behavior is the problem." />
+  <meta name="twitter:image"       content="https://merittrader.com/assets/screenshots/report-card.png" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "MeritTrader",
+    "url": "https://merittrader.com",
+    "description": "A trading journal that grades your discipline, not just your P&L. Log trades, complete setup checklists, and earn a daily Merit Score based on process, adherence, and outcome.",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": "Free during early access"
+    },
+    "creator": {
+      "@type": "Organization",
+      "name": "MeritTrader",
+      "url": "https://merittrader.com"
+    }
+  }
+  </script>
 </head>
 <body>
 
@@ -25,6 +67,8 @@
 
   <!-- HERO -->
   <section class="hero">
+    <div class="orb orb--green" style="width:580px;height:580px;top:-160px;right:-60px;"></div>
+    <div class="orb orb--blue"  style="width:380px;height:380px;bottom:-100px;left:-80px;"></div>
     <div class="container">
       <div class="hero__split">
         <div class="hero__content">
@@ -35,13 +79,15 @@
           <p class="hero-sub-note">Free during early access. No credit card required.</p>
         </div>
         <div class="hero__visual">
-          <div class="screenshot-frame screenshot-frame--glow fade-up">
-            <img
-              src="assets/screenshots/daily-review.png"
-              alt="MeritTrader daily review grade card showing discipline factor breakdown"
-              loading="eager"
-              width="600"
-            >
+          <div class="hero__tilt">
+            <div class="screenshot-frame screenshot-frame--glow fade-up">
+              <img
+                src="assets/screenshots/daily-review.png"
+                alt="MeritTrader daily review grade card showing discipline factor breakdown"
+                loading="eager"
+                width="600"
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -167,7 +213,7 @@
       <h2 class="section-title">Every month tells a story</h2>
       <p class="section-subtitle">Whether you're building consistency or diagnosing a slump, your grades show the way.</p>
       <div class="months-grid">
-        <div class="month-card">
+        <div class="month-card month-card--green">
           <div class="screenshot-frame fade-up">
             <img
               src="assets/screenshots/calendar-green.png"
@@ -178,7 +224,7 @@
           </div>
           <p class="month-caption">A disciplined month. Every grade earned.</p>
         </div>
-        <div class="month-card">
+        <div class="month-card month-card--mixed">
           <div class="screenshot-frame fade-up">
             <img
               src="assets/screenshots/calendar-mixed.png"
@@ -189,7 +235,7 @@
           </div>
           <p class="month-caption">Real trading. Progress you can actually see.</p>
         </div>
-        <div class="month-card">
+        <div class="month-card month-card--red">
           <div class="screenshot-frame fade-up">
             <img
               src="assets/screenshots/calendar-red.png"
@@ -206,6 +252,8 @@
 
   <!-- CONCEPT -->
   <section class="section section-concept">
+    <div class="orb orb--green"  style="width:480px;height:480px;top:-120px;left:-100px;"></div>
+    <div class="orb orb--purple" style="width:560px;height:560px;bottom:-140px;right:-120px;"></div>
     <div class="container container-narrow">
       <h2 class="section-label">A different kind of journal</h2>
       <h3 class="section-heading">Separate good process<br>from lucky outcomes.</h3>
@@ -243,6 +291,13 @@
         >
       </div>
       <p class="section-report__caption">Your monthly report card rolls up daily grades into a Merit Score — surfacing the habits, good and bad, that your P&amp;L never shows.</p>
+      <div class="share-callout">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+        </svg>
+        Export your monthly grade card as a PNG and share it anywhere — no spreadsheet, no P&amp;L flexing required.
+      </div>
     </div>
   </section>
 
@@ -258,6 +313,7 @@
 
   <!-- WAITLIST -->
   <section class="section section-waitlist" id="waitlist">
+    <div class="orb orb--green" style="width:520px;height:520px;top:-100px;left:50%;margin-left:-260px;"></div>
     <div class="container container-narrow">
       <h2 class="section-heading">Be first in line.</h2>
       <p class="section-body">MeritTrader is in active development. Join the waitlist and you'll be the first to know when early access opens.</p>
@@ -288,7 +344,10 @@
         <a href="https://x.com/merittraderhq" target="_blank" rel="noopener">X / Twitter</a>
         <a href="https://github.com/MeritTraderHQ" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:hello@merittrader.com">Contact</a>
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Service</a>
       </div>
+      <p class="footer-disclaimer">MeritTrader is a journaling and self-improvement tool. It does not provide investment advice, financial guidance, or trading signals. Past performance tracked in any journal does not guarantee future results.</p>
       <p class="footer-copy">&copy; 2026 MeritTrader. All rights reserved.</p>
     </div>
   </footer>
