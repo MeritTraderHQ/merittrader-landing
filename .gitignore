@@ -1,0 +1,17 @@
+# Environment / secrets — never commit
+.env
+.env.*
+*.env
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor noise
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Node (if ever added)
+node_modules/
